@@ -135,6 +135,10 @@ ____
 You should land on the CDP Console as shown below.
 
 image:media/media/image43.png[media/media/image43,width=532,height=244]
+
+If New Ui is in place, It'll look like below.
+
+image:media/media/New_UI.png[media/media/image43,width=532,height=244]
 ____
 
 === Download the resources
@@ -153,7 +157,7 @@ image:media/media/image31.png[media/media/image31,width=441,height=254]
 
 After decompressing the ZIP file the folder structure should look something like this
 
-Note : We will use the CDE folder for this session, you can ignore the CDF content.
+Note : We will use the CDE folder for this session, you can ignore rest of the content.
 
 image:media/media/image50.png[media/media/image50,width=440,height=288]
 ____
@@ -261,6 +265,10 @@ Go to the CDP console and click on Data Engineering.
 
 
 image:media/media/image12.png[media/media/image12,width=336,height=174]
+
+New UI:
+
+image:media/media/image.png[media/media/image12,width=532,height=250]
 ____
 
 * {blank}
