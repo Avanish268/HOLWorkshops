@@ -138,7 +138,7 @@ image:media/media/image43.png[media/media/image43,width=532,height=244]
 
 If New Ui is in place, It'll look like below.
 
-image:media/media/New_UI.png[media/media/image43,width=570,height=362]
+image:media/media/New_UI.png[media/media/image43,width=700,height=362]
 ____
 
 === Download the resources
@@ -268,7 +268,7 @@ image:media/media/image12.png[media/media/image12,width=336,height=174]
 
 New UI:
 
-image:media/media/image.png[media/media/image12,width=570,height=362]
+image:media/media/image.png[media/media/image12,width=700,height=362]
 ____
 
 * {blank}
@@ -295,7 +295,7 @@ On the *CDE service* *[.mark]#workshop-e2etest-cde#,* click on the pencil icon a
 
 image:media/media/ServiceDetail.png[media/media/ServiceDetail,width=350,height=165]
 
-image:media/media/CdeServiceDetail.png[media/media/CdeServiceDetail,width=624,height=400]
+image:media/media/CdeServiceDetail.png[media/media/CdeServiceDetail,width=800,height=400]
 ____
 
 * {blank}
@@ -460,7 +460,7 @@ Please give the job names as mentioned below.
 <username>_<script_name_without_py_extension>
 Eg:- For apac01, job1 name would be *apac01_Lab3A_access_logs_ETL*
 
-image:media/media/Job_name.png[media/media/Job_name,width=470,height=250]
+image:media/media/Job_name.png[media/media/Job_name,width=500,height=250]
 ____
 
 * {blank}
@@ -741,7 +741,7 @@ image:media/media/Airflow_UI.png[media/media/Airflow_UI,width=572,height=329]
 
 image:media/media/image15.png[media/media/image15,width=631,height=121]
 
-image:media/media/DAGJobView.png[media/media/DAGJobView,width=672,height=362]
+image:media/media/DAGJobView.png[media/media/DAGJobView,width=800,height=362]
 ____
 
 * {blank}
@@ -888,7 +888,7 @@ image:media/media/image1.png[media/media/image1,width=504,height=86]
 
 Click on the copy icon next to JOBS API URL to copy the *vcluster-endpoint*
 
-image:media/media/Job_API.png[media/media/Job_API,width=570,height=362]
+image:media/media/Job_API.png[media/media/Job_API,width=700,height=362]
 
 image:media/media/image24.png[media/media/image24,width=501,height=219]
 ____
