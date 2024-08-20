@@ -741,7 +741,7 @@ image:media/media/Airflow_UI.png[media/media/Airflow_UI,width=572,height=329]
 
 image:media/media/image15.png[media/media/image15,width=631,height=121]
 
-image:media/media/image11.png[media/media/image11,width=672,height=202]
+image:media/media/DAGJobView.png[media/media/DAGJobView,width=672,height=362]
 ____
 
 * {blank}
