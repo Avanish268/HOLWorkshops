@@ -834,7 +834,7 @@ ____
 * {blank}
 +
 ____
-To validate the installation, run the below command from the terminal.
+To validate the installation, run the below command from a new terminal.
 
 ====
 *COMMAND* -> ./cde --help
