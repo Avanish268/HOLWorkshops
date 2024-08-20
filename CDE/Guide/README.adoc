@@ -138,7 +138,7 @@ image:media/media/image43.png[media/media/image43,width=532,height=244]
 
 If New Ui is in place, It'll look like below.
 
-image:media/media/New_UI.png[media/media/image43,width=532,height=244]
+image:media/media/New_UI.png[media/media/image43,width=570,height=362]
 ____
 
 === Download the resources
@@ -268,7 +268,7 @@ image:media/media/image12.png[media/media/image12,width=336,height=174]
 
 New UI:
 
-image:media/media/image.png[media/media/image12,width=532,height=250]
+image:media/media/image.png[media/media/image12,width=570,height=362]
 ____
 
 * {blank}
@@ -278,7 +278,7 @@ You will see the CDE homepage.
 
 [Note] : If the page load takes a while, you can move to the next step, we can come back to this later
 
-image:media/media/[media/media/CDE_HomePage.png,width=470,height=249]
+image:media/media/CDE_HomePage.png[media/media/CDE_HomePage,width=570,height=362]
 ____
 * {blank}
 +
