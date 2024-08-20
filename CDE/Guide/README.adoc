@@ -278,7 +278,7 @@ You will see the CDE homepage.
 
 [Note] : If the page load takes a while, you can move to the next step, we can come back to this later
 
-image:media/media/CDE_HomePage.png[media/media/CDE_HomePage,width=570,height=362]
+image:media/media/CDE_HomePage.png[media/media/CDE_HomePage,width=624,height=400]
 ____
 * {blank}
 +
@@ -290,12 +290,12 @@ ____
 * {blank}
 +
 ____
-On the *CDE service* *[.mark]#pko-workshop-cde-service#,* click on the pencil icon and observe the configuration and other details related to the service.
+On the *CDE service* *[.mark]#workshop-e2etest-cde#,* click on the pencil icon and observe the configuration and other details related to the service.
 
 
-image:media/media/image58.png[media/media/image58,width=402,height=165]
+image:media/media/ServiceDetail.png[media/media/ServiceDetail,width=350,height=165]
 
-image:media/media/image59.png[media/media/image59,width=624,height=412]
+image:media/media/CdeServiceDetail.png[media/media/CdeServiceDetail,width=624,height=400]
 ____
 
 * {blank}
@@ -365,7 +365,7 @@ ____
 On the virtual cluster *Cluster Name* : _<username>-virtual-cluster_ [ Virtual cluster created in Lab 1] tab**,** click on view jobs. This will open a new page with details of the Job Runs, Jobs, and Resources.
 
 
-image:media/media/image60.png[media/media/image60,width=624,height=141]
+image:media/media/image60.png[media/media/image60,width=700,height=141]
 ____
 
 * {blank}
@@ -421,7 +421,7 @@ ____
 ____
 Validate if all the five _.py_ files are present in your resource. We are now ready to create jobs using these resources.
 
-image:media/media/image7.png[media/media/image7,width=624,height=238]
+image:media/media/image7.png[media/media/image7,width=700,height=238]
 ____
 
 
@@ -460,7 +460,7 @@ Please give the job names as mentioned below.
 <username>_<script_name_without_py_extension>
 Eg:- For apac01, job1 name would be *apac01_Lab3A_access_logs_ETL*
 
-image:media/media/image55.png[media/media/image55,width=470,height=141]
+image:media/media/Job_name.png[media/media/Job_name,width=470,height=250]
 ____
 
 * {blank}
@@ -483,7 +483,7 @@ ____
 ____
 Ignore the remaining configuration options. Do not enable the schedule now. This is how it should finally look like.
 
-image:media/media/image54.png[media/media/image54,width=415,height=378]
+image:media/media/Create_Job.png[media/media/Create_Job,width=700,height=400]
 ____
 
 * {blank}
@@ -737,7 +737,7 @@ ____
 Click on *Airflow UI* and observe the schedule created for your job.
 
 
-image:media/media/image6.png[media/media/image6,width=572,height=329]
+image:media/media/Airflow_UI.png[media/media/Airflow_UI,width=572,height=329]
 
 image:media/media/image15.png[media/media/image15,width=631,height=121]
 
@@ -796,9 +796,12 @@ ____
 ** {blank}
 +
 ____
-*Step 2* : Click on CLI TOOL to download the executable based on your operating system.
+*Step 2* : Go to Action and Click on Download CLI TOOL option to download the executable based on your operating system.
 
-image:media/media/image74.png[media/media/image74,width=516,height=218]
+image:media/media/Download_CLI.png[media/media/Download_CLI,width=570,height=362]
+
+image:media/media/CLI_binary.png[media/media/CLI_binary,width=362,height=268]
+
 ____
 
 === *For Mac users*: 
@@ -815,7 +818,7 @@ ____
 ____
 Go to the folder where the executable is present. Right click and select “Open with” -> Terminal . You will get the below message
 
-image:media/media/image66.png[media/media/image66,width=278,height=268]
+image:media/media/MacCliWarning.png[media/media/MacCliWarning,width=319,height=268]
 ____
 
 * {blank}
@@ -885,7 +888,7 @@ image:media/media/image1.png[media/media/image1,width=504,height=86]
 
 Click on the copy icon next to JOBS API URL to copy the *vcluster-endpoint*
 
-image:media/media/image72.png[media/media/image72,width=415,height=127]
+image:media/media/Job_API.png[media/media/Job_API,width=570,height=362]
 
 image:media/media/image24.png[media/media/image24,width=501,height=219]
 ____
