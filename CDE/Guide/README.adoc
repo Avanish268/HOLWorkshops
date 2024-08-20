@@ -182,7 +182,7 @@ Go through each script and update the necessary values as mentioned in the scrip
 
 ** For all the scripts, update the username field with the username that you have been assigned to. You will find this at the starting of the script itself.
 
-image:media/media/image42.png[media/media/image42,width=570,height=362]
+image:media/media/UpdateUsernameInScripts.png[media/media/UpdateUsernameInScripts.png,width=570,height=362]
 ____
 
 == Lab 1 - Walkthrough of CDE Data Service
@@ -278,7 +278,7 @@ You will see the CDE homepage.
 
 [Note] : If the page load takes a while, you can move to the next step, we can come back to this later
 
-image:media/media/image3.png[media/media/image3,width=470,height=249]
+image:media/media/[media/media/CDE_HomePage.png,width=470,height=249]
 ____
 * {blank}
 +
