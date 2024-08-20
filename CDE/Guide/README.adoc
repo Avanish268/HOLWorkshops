@@ -1157,7 +1157,7 @@ ____
 Click on the *Charts* tab.
 
 
-image:media/media/Charts.png[media/media/Charts,width=624,height=250]
+image:media/media/Charts.png[media/media/Charts,width=600,height=300]
 ____
 
 * {blank}
