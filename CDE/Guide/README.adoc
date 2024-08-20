@@ -1157,7 +1157,7 @@ ____
 Click on the *Charts* tab.
 
 
-image:media/media/image47.png[media/media/image47,width=624,height=110]
+image:media/media/Charts.png[media/media/Charts,width=624,height=250]
 ____
 
 * {blank}
@@ -1175,7 +1175,7 @@ ____
 Click on *Grafana Charts* to view another set of metrics of the virtual cluster.
 
 
-image:media/media/image41.png[media/media/image41,width=624,height=70]
+image:media/media/Grafana.png[media/media/Grafana,width=624,height=200]
 ____
 ++++
 <p align="center">
