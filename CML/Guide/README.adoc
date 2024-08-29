@@ -196,7 +196,7 @@ Clicking on it will take you to the Project that you just cloned from GitHub and
 
 ++++
 <p align="center">
-  <img width="553" height="306" src="cml-media/media/image72.png">
+  <img width="553" height="306" src="cml-media/media/Github_code.png">
 </p>
 ++++
 
@@ -242,7 +242,7 @@ Click on *[.underline]#START SESSION#*
 
 ++++
 <p align="center">
-  <img width="500" height="361" src="cml-media/media/image49.png">
+  <img width="500" height="361" src="cml-media/media/prepdata.png">
 </p>
 ++++
 
@@ -270,11 +270,11 @@ Once the session is ready you should get a similar message
 ++++
 
 
-Select the *0_bootstrap.py* on the left file browser
+Select the *0_bootstrap.py* under code on the left file browser
 
 ++++
 <p align="center">
-  <img width="211" height="386" src="cml-media/media/image53.png">
+  <img width="211" height="386" src="cml-media/media/pyfiles.png">
 </p>
 ++++
 
@@ -383,7 +383,7 @@ Start a “*NEW SESSION*” and use the below configuration.
 |===
 |*Session Name* |data_explore
 |*Runtime Editor* |JupyterLab
-|*Enable Spark* |Yes - Spark version 2.4.8
+|*Enable Spark* |Yes - Spark version 3.3.0
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
@@ -391,61 +391,16 @@ Click on *[.underline]#START SESSION#*
 
 ++++
 <p align="center">
-  <img width="470" height="339" src="cml-media/media/image81.png">
+  <img width="470" height="339" src="cml-media/media/dataexplore.png">
 </p>
 ++++
 
 ==== Step 2 : Execute Data Exploration script
 
-Double-Click on *2_data_exploration.ipynb* it will take you into the notebook
+This Jupyter Notebook does some basic exploratory data analysis (EDA) and visualization. It is to show how EDA fits into the data science workflow.
+Double-Click on *2_data_exploration.ipynb* under code directory, it will take you into the notebook
 
-++++
-<p align="center">
-  <img width="624" height="312" src="cml-media/media/image51.png">
-</p>
-++++
-
-As you notice we are interacting with the data lake, in particular with the database previously created
-
-
-++++
-<p align="center">
-  <img width="624" height="154" src="cml-media/media/image55.png">
-</p>
-++++
-
-At this point the data scientist realized that they forgot to add a dependency at the time of bootstrap process. They can still do that from here. Let’s see how that can be done.
-
-For our data exploration, if you run the script without making any changes you will see that it will fail at a point because of a missing dependency.
-
-++++
-<p align="center">
-  <img width="624" height="348" src="cml-media/media/image20.png">
-</p>
-++++
-
-This can be taken care of by adding the missing dependency before we make use of it.
-
-Add this command at the start of your script and Run All Cells again.
-
-To add a new command block got to the start of the script and select the first block of code, Click on the + sign at the top of the editor and enter the following command
-
-====
-*!pip install seaborn*
-====
-++++
-<p align="center">
-  <img width="424" height="328" src="cml-media/media/image71.png">
-</p>
-++++
-
-++++
-<p align="center">
-  <img width="491" height="293" src="cml-media/media/image39.png">
-</p>
-++++
-
-You are ready to run the notebook, go to _Cell_, _Run All_
+You are ready to run the notebook, go to Run, Run All Cells
 
 And you can analyze the plotted graphs
 
@@ -497,7 +452,7 @@ Start a “*NEW SESSION*” and use the below configuration.
 |===
 |*Session Name* |model_building
 |*Runtime Editor* |JupyterLab
-|*Enable Spark* |Yes - Spark version 2.4.8
+|*Enable Spark* |Yes - Spark version 3.3.0
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
@@ -505,13 +460,13 @@ Click on *[.underline]#START SESSION#*
 
 ++++
 <p align="center">
-  <img width="439" height="315" src="cml-media/media/image82.png">
+  <img width="439" height="315" src="cml-media/media/model_building.png">
 </p>
 ++++
 
 ==== Step 2 : Execute model building script
 
-Open the _3_model_building.ipynb_ file.
+Double click on the _3_model_building.ipynb_ file under code directory .
 
 ++++
 <p align="center">
