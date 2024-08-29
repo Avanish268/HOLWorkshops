@@ -486,6 +486,7 @@ image:cml-media/media/image79.png[cml-media/media/image79,width=299,height=366]
 
 === Model Training
 
+
 ==== Step 1 : Create a session
 
 For the training portion of the lab we will use the file *_4_train_models.py_*
@@ -598,19 +599,19 @@ Enter the following details
 |*Name* |<workload_username>_telco_churn_mod
 |*Description* |Deploying the telco churn model
 |*Enable Authentication* |*False (Disable)*
-|*File* |5_model_serve_explainer.py
+|*File* |code/5_model_serve_explainer.py
 |*Function* |explain
 |*Example Input* |{"StreamingTV":"No","MonthlyCharges":70.35,"PhoneService":"No","PaperlessBilling":"No","Partner":"No","OnlineBackup":"No","gender":"Female","Contract":"Month-to-month","TotalCharges":1397.475,"StreamingMovies":"No","DeviceProtection":"No","PaymentMethod":"Bank transfer (automatic)","tenure":29,"Dependents":"No","OnlineSecurity":"No","MultipleLines":"No","InternetService":"DSL","SeniorCitizen":"No","TechSupport":"No"}
 |*Runtime Editor* |Workench
-|*Enable Spark* |TRUE - Spark 2.4.8
+|*Enable Spark* |TRUE - Spark 3.3.0
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
-image:cml-media/media/image85.png[cml-media/media/image85,width=396,height=398]
+image:cml-media/media/modeldeploy1.png[cml-media/media/image85,width=396,height=398]
 
-image:cml-media/media/image86.png[cml-media/media/image86,width=397,height=433]
+image:cml-media/media/modeldeploy2.png[cml-media/media/image86,width=397,height=433]
 
-image:cml-media/media/image29.png[cml-media/media/image29,width=397,height=173]
+image:cml-media/media/modeldeploy3.png[cml-media/media/image29,width=397,height=173]
 
 At this point you can deploy the model by clicking *_Deploy model_*
 
@@ -650,7 +651,7 @@ image:cml-media/media/image31.png[cml-media/media/image31,width=624,height=129]
 
 The model can be monitored going to the *_Monitoring_* tab
 
-image:cml-media/media/image19.png[cml-media/media/image19,width=624,height=294]
+image:cml-media/media/montoring.png[cml-media/media/montoring,width=624,height=294]
 
 This concludes this lab.
 
@@ -699,13 +700,13 @@ Provide the following details.
 |*Description* |Application that leverages the built model
 |*Script* |6_application.py
 |*Runtime - Editor* |Workbench
-|*Enable Spark* |TRUE - Spark 2.4.8
+|*Enable Spark* |TRUE - Spark 3.3.0
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
-image:cml-media/media/image83.png[cml-media/media/image83,width=389,height=501]
+image:cml-media/media/app1.png[cml-media/media/app1,width=389,height=501]
 
-image:cml-media/media/image74.png[cml-media/media/image74,width=379,height=179]
+image:cml-media/media/app2.png[cml-media/media/app2,width=379,height=179]
 
 And then click *Create Application*
 
@@ -743,6 +744,6 @@ image:cml-media/media/image15.png[cml-media/media/image15,width=624,height=681]
 
 Everytime you click and change a value, the application will call our model. To check this go back to your model deployed, click Monitoring bd you should see that the Receive value is increased
 
-image:cml-media/media/image2.png[cml-media/media/image2,width=624,height=216]
+image:cml-media/media/increase.png[cml-media/media/increase,width=624,height=216]
 
 This concludes the lab.
