@@ -131,11 +131,11 @@ You will be provided with a set of credentials along with a URL which will give 
 
 === Create Project
 
-Login into CDP using the URL above and the credentials assigned to you. After logging into CDP you will have access to the main console and then go to Cloudera Machine Learning workspace. Click on Workspace to proceed to executing the hands-on labs.
+Login into CDP using the URL above and the credentials assigned to you. After logging into CDP you will have access to the main console and then click on Machine Learning tile. Click on Workspace to proceed to executing the hands-on labs.
 
 ++++
 <p align="center">
-  <img width="624" height="132" src="cml-media/media/image69.png">
+  <img width="624" height="132" src="cml-media/media/CML_Homepage.png">
 </p>
 ++++
 
@@ -143,11 +143,17 @@ This will launch a ML workspace screen.
 
 ++++
 <p align="center">
-  <img width="407" height="206" src="cml-media/media/image76.png">
+  <img width="407" height="206" src="cml-media/media/CML_Workspace.png">
 </p>
 ++++
 
-Click on “New Project” to start with the creation of our project.
+Click on “Projects > New Project” to start with the creation of our project.
+
+++++
+<p align="center">
+  <img width="407" height="206" src="cml-media/media/New_project.png">
+</p>
+++++
 
 Enter the following details in the New Project Page
 
@@ -158,20 +164,20 @@ Enter the following details in the New Project Page
 |*Project Visibility* |Private
 |*Initial Setup* |Select “Git”
 |*Protocol* |HTTPS
-|*Git URL of Project* |https://github.com/mmehra12/cml_churn_demo
-|*Runtime Setup* |Basic
-|*Kernel* |Python 3.7
+|*Git URL of Project* |https://github.com/Avanish268/CML_AMP_Churn_Prediction.git
+|*Runtimes* |Enable Advanced options
+|*Add runtime* | Add required Editors highlighted in below image
 |===
 
 ++++
 <p align="center">
-  <img width="459" height="425" src="cml-media/media/image28.png">
+  <img width="459" height="425" src="cml-media/media/ProjectDetail1.png">
 </p>
 ++++
 
 ++++
 <p align="center">
-  <img width="459" height="293" src="cml-media/media/image70.png">
+  <img width="459" height="293" src="cml-media/media/ProjectDetail2.png">
 </p>
 ++++
 
@@ -228,7 +234,7 @@ Start a “*NEW SESSION*” and use the below configuration.
 |===
 |*Session Name* |prep_data_ingest
 |*Runtime Editor* |Workbench
-|*Enable Spark* |Yes - Spark version 2.4.8
+|*Enable Spark* |Yes - Spark version 3.3.0  
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
