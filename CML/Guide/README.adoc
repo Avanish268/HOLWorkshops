@@ -570,11 +570,11 @@ image:cml-media/media/image75.png[cml-media/media/image75,width=624,height=290]
 
 This is the script for serving the model, and the line below is loading the pickel model we have generated in the Lab 3
 
-image:cml-media/media/image67.png[cml-media/media/image67,width=498,height=58]
+image:cml-media/media/explainer1.png[cml-media/media/explainer1,width=400,height=30]
 
 and the function is the one that takes the input arguments, passes them to the model for scoring and gives back the result of the score.
 
-image:cml-media/media/image78.png[cml-media/media/image78,width=498,height=148]
+image:cml-media/media/explainer2.png[cml-media/media/explainer2,width=350,height=135]
 
 Copy the entire string as shown below because we are going to use it in the future and a sample JSON input parameters for the model.
 
