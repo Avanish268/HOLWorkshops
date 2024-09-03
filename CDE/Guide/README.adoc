@@ -180,9 +180,12 @@ ____
 ____
 Go through each script and update the necessary values as mentioned in the script.
 
-** For all the scripts, update the username field with the username that you have been assigned to. You will find this at the starting of the script itself.
+** For all the scripts, update the **username** field with the username and **input_path** with workshop bucket name that you have been assigned to.
 
-image:media/media/UpdateUsernameInScripts.png[media/media/UpdateUsernameInScripts.png,width=570,height=362]
+image:media/media/scriptupdate.png[media/media/scriptupdate.png,width=570,height=400]
+
+[NOTE]
+  You might not find **input_path** field in **Lab3B3_Create_Reports.py** and **Lab5_airflow_dag.py**
 ____
 
 == Lab 1 - Walkthrough of CDE Data Service
