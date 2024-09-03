@@ -3,7 +3,7 @@
 
 = Prerequisites
 
-Before executing workshop steps, first Create Ranger Policy for RAZ-Enabled AWS Environment on CDP and update **data-bucket-access-policy** on AWS.
+Before executing workshop steps, first Create Ranger Policy for RAZ-Enabled AWS Environment on CDP and update **data-bucket-access-policy** on AWS. Then declare **HIVE_DATABASE**, **DATA_LOCATION**, **HIVE_TABLE** Environment variables on CML workshop console.
 
 == Creating Ranger Policy for RAZ-Enabled AWS Environment
 
@@ -60,3 +60,44 @@ image::../Guide/cml-media/media/RangerS3_2.png[alt="Sample Policy Details Page i
 image::../Guide/cml-media/media/Policy1.png[alt="Sample Policy Details Page in AWS Console"]
 image::../Guide/cml-media/media/Policy2.png[alt="Sample Policy Details Page in AWS Console"]
 image::../Guide/cml-media/media/Policy3.png[alt="Sample Policy Details Page in AWS Console"]
+
+== Declare Environment variables from CML workshop UI
+
+Login into CDP using the URL above and the credentials assigned to you. After logging into CDP you will have access to the main console and then click on Machine Learning tile. Click on Workspace to proceed to executing the hands-on labs.
+
+++++
+<p align="center">
+  <img width="624" height="300" src="../Guide/cml-media/media/CML_Homepage.png">
+</p>
+++++
+
+This will launch a ML workspace screen.
+
+++++
+<p align="center">
+  <img width="1000" height="220" src="../Guide/cml-media/media/CML_Workspace.png">
+</p>
+++++
+
+Inside the workshop console, scroll down the left section of the screen to the bottom. Click on **Site Administration** and then **Runtime**.
+
+++++
+<p align="center">
+  <img width="1000" height="600" src="../Guide/cml-media/media/env_vars.png">
+</p>
+++++
+
+Scroll down the Runtime page to the bottom and add the highlighted **Names** and **Values** under Environment Variables.
+
+++++
+<p align="center">
+  <img width="600" height="350" src="../Guide/cml-media/media/env_vars2.png">
+</p>
+++++
+
+Again scroll to the top and click on Update Runtimes now to save changes.
+++++
+<p align="center">
+  <img width="1000" height="350" src="../Guide/cml-media/media/env_vars3.png">
+</p>
+++++
