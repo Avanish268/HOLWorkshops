@@ -486,7 +486,7 @@ image:cml-media/media/image79.png[cml-media/media/image79,width=299,height=366]
 
 === Model Training
 
-The **[Jobs](https://docs.cloudera.com/machine-learning/cloud/jobs-pipelines/topics/ml-creating-a-job.html)** feature in CML allows for adhoc, recurring, and dependency triggered jobs to run specific scripts. To run this model training process as a job, create a new job by going to the project window and clicking _Jobs > New Job_ (in the left side bar) and entering the following settings:
+The jobs feature in CML allows for adhoc, recurring, and dependency triggered jobs to run specific scripts. To run this model training process as a job, create a new job by going to the project window and clicking _Jobs > New Job_ (in the left side bar) and entering the following settings:
 
 * **Name** : Train Model
 * **Script** : 4_train_models.py
