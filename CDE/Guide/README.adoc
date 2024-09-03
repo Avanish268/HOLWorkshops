@@ -460,7 +460,7 @@ Please give the job names as mentioned below.
 <username>_<script_name_without_py_extension>
 Eg:- For apac01, job1 name would be *apac01_Lab3A_access_logs_ETL*
 
-image:media/media/Job_name.png[media/media/Job_name,width=500,height=250]
+image:media/media/Job_name.png[media/media/Job_name,width=400,height=200]
 ____
 
 * {blank}
@@ -483,7 +483,7 @@ ____
 ____
 Ignore the remaining configuration options. Do not enable the schedule now. This is how it should finally look like.
 
-image:media/media/Create_Job.png[media/media/Create_Job,width=700,height=400]
+image:media/media/Create_Job.png[media/media/Create_Job,width=800,height=400]
 ____
 
 * {blank}
@@ -521,7 +521,7 @@ ____
 ____
 Once done, click on the *Jobs* tab and enter your username in the search bar and press *ENTER.* You should see four jobs as shown below with your username.
 
-image:media/media/image46.png[media/media/image46,width=624,height=193]
+image:media/media/image46.png[media/media/image46,width=624,height=250]
 ____
 
 * {blank}
@@ -572,7 +572,7 @@ ____
 To trigger the job, go to the *Jobs* tab, click on the 3-dotted icon, and click on *Run Now.*
 
 
-image:media/media/image48.png[media/media/image48,width=489,height=186]
+image:media/media/image48.png[media/media/image48,width=624,height=250]
 ____
 * {blank}
 +
@@ -678,7 +678,7 @@ ____
 Go to the Jobs tab, click on the 3-dotted icon next to the job and select *Pause schedule*. [ Do this for all jobs ]
 
 
-image:media/media/image70.png[media/media/image70,width=471,height=154]
+image:media/media/image70.png[media/media/image70,width=500,height=200]
 
 image:media/media/image33.png[media/media/image33,width=338,height=75]
 ____
@@ -737,7 +737,7 @@ ____
 Click on *Airflow UI* and observe the schedule created for your job.
 
 
-image:media/media/Airflow_UI.png[media/media/Airflow_UI,width=572,height=329]
+image:media/media/Airflow_UI.png[media/media/Airflow_UI,width=700,height=350]
 
 image:media/media/image15.png[media/media/image15,width=631,height=121]
 
@@ -798,9 +798,9 @@ ____
 ____
 *Step 2* : Go to Action and Click on Download CLI TOOL option to download the executable based on your operating system.
 
-image:media/media/Download_CLI.png[media/media/Download_CLI,width=570,height=362]
+image:media/media/Download_CLI.png[media/media/Download_CLI,width=700,height=362]
 
-image:media/media/CLI_binary.png[media/media/CLI_binary,width=362,height=268]
+image:media/media/CLI_binary.png[media/media/CLI_binary,width=450,height=268]
 
 ____
 
@@ -818,8 +818,7 @@ ____
 ____
 Go to the folder where the executable is present. Right click and select “Open with” -> Terminal . You will get the below message
 
-image:media/media/MacCliWarning.png[media/media/MacCliWarning,width=319,height=268]
-____
+image:media/media/MacCliWarning.png[media/media/MacCliWarning,width=400,height=350]____
 
 * {blank}
 +
@@ -1175,7 +1174,7 @@ ____
 Click on *Grafana Charts* to view another set of metrics of the virtual cluster.
 
 
-image:media/media/Grafana.png[media/media/Grafana,width=624,height=200]
+image:media/media/Grafana.png[media/media/Grafana,width=800,height=200]
 ____
 ++++
 <p align="center">
