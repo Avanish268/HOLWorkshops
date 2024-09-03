@@ -486,75 +486,20 @@ image:cml-media/media/image79.png[cml-media/media/image79,width=299,height=366]
 
 === Model Training
 
+The **[Jobs](https://docs.cloudera.com/machine-learning/cloud/jobs-pipelines/topics/ml-creating-a-job.html)** feature in CML allows for adhoc, recurring, and dependency triggered jobs to run specific scripts. To run this model training process as a job, create a new job by going to the project window and clicking _Jobs > New Job_ (in the left side bar) and entering the following settings:
 
-==== Step 1 : Create a session
+* **Name** : Train Model
+* **Script** : 4_train_models.py
+* **Arguments** : _Leave blank_
+* **Schedule** : Manual
+* **Enable Spark**:Yes - Spark version 3.3.0
+* **Resource Profile** : 2 vCPU / 4 GiB
 
-For the training portion of the lab we will use the file *_4_train_models.py_*
+image:cml-media/media/cml_job1.png[cml-media/media/cml_job1,width=600,height=500]
 
-Click on it and familiarize yourself with the code. This can be done by going into your project, clicking on *_Files_* in the left pane, and viewing the file *_4_train_models.py_*
+image:cml-media/media/cml_job2.png[cml-media/media/cml_job2,width=600,height=366]
 
-image:cml-media/media/image77.png[cml-media/media/image77,width=524,height=422]
-
-The code also keeps track of the metrics associated to a particular train configuration:
-
-image:cml-media/media/image10.png[cml-media/media/image10,width=624,height=73]
-
-The real model that is being trained can be seen here. Go to the models folder:
-
-image:cml-media/media/image24.png[cml-media/media/image24,width=624,height=76]
-
-image:cml-media/media/image26.png[cml-media/media/image26,width=624,height=202]
-
-To create a new session you can go into your project, select *_Sessions_* in the left pane, and click on *New Session*
-
-image:cml-media/media/image65.png[cml-media/media/image65,width=496,height=287]
-
-Start a “*NEW SESSION*” and use the below configuration.
-
-[width="100%",cols="21%,79%",options="header",]
-|===
-|*Session Name* |experiment_runs
-|*Runtime Editor* |Workbench
-|*Enable Spark* |Yes - Spark version 2.4.8
-|*Resource Profile* |2 vCPU / 4 GiB
-|===
-
-Click on *[.underline]#START SESSION#*
-
-image:cml-media/media/image50.png[cml-media/media/image50,width=571,height=452]
-
-==== Step 2 : Run Experiments
-
-Select the file *_4_train_models.py_*
-
-Select *_Run -> Rull All_*
-
-Once this runs successfully Go back to the *Project Page*
-
-image:cml-media/media/image12.png[cml-media/media/image12,width=624,height=298]
-
-Select *_Experiments_* from the left tab
-
-image:cml-media/media/image22.png[cml-media/media/image22,width=136,height=322]
-
-You will see that the experiment we ran from the session shows up here as it has the same name that we specified in the script.
-
-image:cml-media/media/image54.png[cml-media/media/image54,width=369,height=265]
-
-image:cml-media/media/image13.png[cml-media/media/image13,width=624,height=172]
-
-==== Step 3 : Verify Experiment metrics
-
-Click on the Experiment you just ran and look for the train score and test score
-
-image:cml-media/media/image56.png[cml-media/media/image56,width=624,height=232]
-
-We can run multiple experiments and based on the best score we can decide which model to go with. The model is also one of the columns in the Experiment details.
-
-image:cml-media/media/image33.png[cml-media/media/image33,width=624,height=88]
-
-This concludes the Lab
-
+The rest can be left as is. Once the job has been created, click **Run** to start a manual run for that job.
 
 == Lab 4 - Model Deploy/Serve 
 
