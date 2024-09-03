@@ -1,0 +1,13 @@
+= Prerequisites
+
+Before executing workshop steps, first copy data from handsonworkshop bucket to current workshopbucket and Create Ranger Policy for RAZ-Enabled AWS Environment.
+
+== Copy data in workshop bucket
+
+[.shell]
+----
+
+aws s3 cp s3://handsonworkshop/cde-workshop/ s3://<bucketname>/cde-workshop/ --recursive
+#aws s3 cp s3://handsonworkshop/cde-workshop/ s3://testcmlgpu-buk-de067422/cde-workshop/ --recursive
+
+----
