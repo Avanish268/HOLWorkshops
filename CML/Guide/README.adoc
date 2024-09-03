@@ -135,7 +135,7 @@ Login into CDP using the URL above and the credentials assigned to you. After lo
 
 ++++
 <p align="center">
-  <img width="624" height="132" src="cml-media/media/CML_Homepage.png">
+  <img width="624" height="300" src="cml-media/media/CML_Homepage.png">
 </p>
 ++++
 
@@ -143,7 +143,7 @@ This will launch a ML workspace screen.
 
 ++++
 <p align="center">
-  <img width="407" height="206" src="cml-media/media/CML_Workspace.png">
+  <img width="1000" height="220" src="cml-media/media/CML_Workspace.png">
 </p>
 ++++
 
@@ -151,7 +151,7 @@ Click on “Projects > New Project” to start with the creation of our project.
 
 ++++
 <p align="center">
-  <img width="407" height="206" src="cml-media/media/New_project.png">
+  <img width="700" height="400" src="cml-media/media/New_project.png">
 </p>
 ++++
 
@@ -171,13 +171,13 @@ Enter the following details in the New Project Page
 
 ++++
 <p align="center">
-  <img width="459" height="425" src="cml-media/media/ProjectDetail1.png">
+  <img width="500" height="550" src="cml-media/media/ProjectDetail1.png">
 </p>
 ++++
 
 ++++
 <p align="center">
-  <img width="459" height="293" src="cml-media/media/ProjectDetail2.png">
+  <img width="500" height="400" src="cml-media/media/ProjectDetail2.png">
 </p>
 ++++
 
@@ -188,7 +188,7 @@ On successful creation you should now see the project on your Project page
 
 ++++
 <p align="center">
-  <img width="489" height="281" src="cml-media/media/image42.png">
+  <img width="500" height="350" src="cml-media/media/image42.png">
 </p>
 ++++
 
@@ -196,7 +196,7 @@ Clicking on it will take you to the Project that you just cloned from GitHub and
 
 ++++
 <p align="center">
-  <img width="553" height="306" src="cml-media/media/Github_code.png">
+  <img width="800" height="350" src="cml-media/media/Github_code.png">
 </p>
 ++++
 
@@ -223,7 +223,7 @@ To create a new session you can go into your project and click on *New Session*
 
 ++++
 <p align="center">
-  <img width="496" height="287" src="cml-media/media/image65.png">
+  <img width="624" height="350" src="cml-media/media/image65.png">
 </p>
 ++++
 
@@ -274,7 +274,7 @@ Select the *0_bootstrap.py* under code on the left file browser
 
 ++++
 <p align="center">
-  <img width="211" height="386" src="cml-media/media/pyfiles.png">
+  <img width="211" height="450" src="cml-media/media/pyfiles.png">
 </p>
 ++++
 
@@ -328,7 +328,7 @@ Session output will show the code execution results. Observe the database, table
 
 ++++
 <p align="center">
-  <img width="624" height="332" src="cml-media/media/image73.png">
+  <img width="700" height="400" src="cml-media/media/image73.png">
 </p>
 ++++
 
@@ -589,7 +589,7 @@ image:cml-media/media/image61.png[cml-media/media/image61,width=126,height=307]
 
 Click *_New Model_*
 
-image:cml-media/media/image59.png[cml-media/media/image59,width=496,height=199]
+image:cml-media/media/image59.png[cml-media/media/image59,width=550,height=250]
 
 Enter the following details
 
@@ -607,27 +607,27 @@ Enter the following details
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
-image:cml-media/media/modeldeploy1.png[cml-media/media/image85,width=396,height=398]
+image:cml-media/media/modeldeploy1.png[cml-media/media/image85,width=550,height=398]
 
-image:cml-media/media/modeldeploy2.png[cml-media/media/image86,width=397,height=433]
+image:cml-media/media/modeldeploy2.png[cml-media/media/image86,width=550,height=433]
 
-image:cml-media/media/modeldeploy3.png[cml-media/media/image29,width=397,height=173]
+image:cml-media/media/modeldeploy3.png[cml-media/media/image29,width=550,height=300]
 
 At this point you can deploy the model by clicking *_Deploy model_*
 
-image:cml-media/media/image32.png[cml-media/media/image32,width=624,height=190]
+image:cml-media/media/image32.png[cml-media/media/image32,width=700,height=250]
 
 The status will go thru the life-cycle of the container _Pending_ -> _Building_
 
-image:cml-media/media/image36.png[cml-media/media/image36,width=624,height=189]
+image:cml-media/media/image36.png[cml-media/media/image36,width=550,height=220]
 
 _Building_ -> _Deploying_
 
-image:cml-media/media/image46.png[cml-media/media/image46,width=624,height=189]
+image:cml-media/media/image46.png[cml-media/media/image46,width=550,height=220]
 
 And finally _Deployed_
 
-image:cml-media/media/image41.png[cml-media/media/image41,width=522,height=158]
+image:cml-media/media/image41.png[cml-media/media/image41,width=550,height=220]
 
 Now you can click on the model name and test it ...
 
@@ -651,7 +651,7 @@ image:cml-media/media/image31.png[cml-media/media/image31,width=624,height=129]
 
 The model can be monitored going to the *_Monitoring_* tab
 
-image:cml-media/media/montoring.png[cml-media/media/montoring,width=624,height=294]
+image:cml-media/media/monitoring.png[cml-media/media/monitoring,width=624,height=294]
 
 This concludes this lab.
 
@@ -679,7 +679,7 @@ image:cml-media/media/image3.png[cml-media/media/image3,width=624,height=412]
 
 In order to edit this file, open it in a workbench (click Open in Session)
 
-image:cml-media/media/image23.png[cml-media/media/image23,width=624,height=182]
+image:cml-media/media/image23.png[cml-media/media/image23,width=700,height=300]
 
 You do not need to launch a session. Just substitute the access key with yours and select *File > Save*.
 
@@ -704,9 +704,9 @@ Provide the following details.
 |*Resource Profile* |2 vCPU / 4 GiB
 |===
 
-image:cml-media/media/app1.png[cml-media/media/app1,width=389,height=501]
+image:cml-media/media/App1.png[cml-media/media/App1,width=389,height=501]
 
-image:cml-media/media/app2.png[cml-media/media/app2,width=379,height=179]
+image:cml-media/media/app2.png[cml-media/media/app2,width=389,height=350]
 
 And then click *Create Application*
 
@@ -744,6 +744,6 @@ image:cml-media/media/image15.png[cml-media/media/image15,width=624,height=681]
 
 Everytime you click and change a value, the application will call our model. To check this go back to your model deployed, click Monitoring bd you should see that the Receive value is increased
 
-image:cml-media/media/increase.png[cml-media/media/increase,width=624,height=216]
+image:cml-media/media/increase.png[cml-media/media/increase,width=1000,height=216]
 
 This concludes the lab.
