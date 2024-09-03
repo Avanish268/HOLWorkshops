@@ -7,7 +7,7 @@ from pyspark.sql.functions import split, col
 import sys
 
 ### Update the username and dbname
-username = "<ENTER YOUR USERNAME HERE>" ##Example: "apac01"
+username = "<ENTER YOUR USERNAME HERE>".replace("-", "_") ##Example: "apac01"
 
 #### DB Name and App Name accordingly
 db_name = username + "_TexasPPP"
@@ -19,7 +19,7 @@ spark = SparkSession \
     .getOrCreate()
 
 #A simple script that runs aggregate queries to be used for reporting purposes.
-spark.conf.set("spark.sql.legacy.allowCreatingManagedTableUsingNonemptyLocation","true")
+#spark.conf.set("spark.sql.legacy.allowCreatingManagedTableUsingNonemptyLocation","true")
 
 print("...............................")
 print(f"Running report for Jobs Retained by City")

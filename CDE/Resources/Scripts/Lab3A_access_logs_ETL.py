@@ -7,7 +7,8 @@ from pyspark.sql.functions import split, regexp_extract, regexp_replace, col
 import sys
 
 ### Update the username
-username = "<ENTER YOUR USERNAME HERE>" ## example: "apac01"
+username = "<ENTER YOUR USERNAME HERE>".replace("-", "_")  ## Example : "apac01"
+
 
 #### DB Name and App Name accordingly
 db_name = username + "_retail"
@@ -18,7 +19,7 @@ spark = SparkSession \
     .appName(appName) \
     .getOrCreate()
 
-input_path ="s3a://handsonworkshop/cde-workshop/access-log.txt"
+input_path ="s3a://<ENTER BUCKET_NAME HERE>/cde-workshop/access-log.txt"
 base_df=spark.read.text(input_path)
 
 split_df = base_df.select(regexp_extract('value', r'([^ ]*)', 1).alias('ip'),
