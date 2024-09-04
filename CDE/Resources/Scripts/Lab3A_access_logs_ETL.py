@@ -7,7 +7,7 @@ from pyspark.sql.functions import split, regexp_extract, regexp_replace, col
 import sys
 
 ### Update the username
-username = "apac01".replace("-", "_")  ## Example : "apac01"
+owner = "apac01".replace("-", "_")  ## Example : "apac01"
 
 
 #### DB Name and App Name accordingly
